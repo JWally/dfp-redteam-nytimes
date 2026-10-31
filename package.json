@@ -1,0 +1,9 @@
+{
+  "name": "dfp-redteam-nytimes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "NYTimes defense + ad-tech assessment: DataDome edge gate, server-side paywall meter (GraphQL), ~20 SSP cookie-syncs, Google/Amazon/Prebid bidding, LiveRamp/TrustArc consent, Chartbeat/Comscore/GTM (authorized, observed/local, 2026-10-31)",
+  "scripts": { "probe": "node scripts/nyt-probe.mjs", "stack": "node scripts/nyt-stack.mjs" },
+  "dependencies": { "playwright": "^1" }
+}

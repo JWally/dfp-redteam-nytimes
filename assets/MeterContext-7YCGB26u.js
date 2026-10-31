@@ -1,0 +1,2 @@
+import{o as e}from"./rolldown-runtime-DAXXjFlN.js";import{gr as t}from"./vendor-xO7slRyQ.js";var n=e(t()).createContext({ab:{},counted:!1,expiredSession:!1,forceRefresh:()=>{},meterReady:!1,pageCount:null,showGateway:!1,gatewayType:null,gatewayTypeVariation:null,gatewayIsEmbedded:!1,gatewayPosition:null,gatewayDropzone:null,totalArticleCount:null,granted:!1,grantReason:null,assetType:null,setGatewayIsEmbedded:()=>{}});export{n as t};
+//# sourceMappingURL=MeterContext-7YCGB26u.js.map

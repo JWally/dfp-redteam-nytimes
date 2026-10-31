@@ -1,0 +1,43 @@
+{
+  "state": {
+    "title": "nytimes.com",
+    "bodyStart": "",
+    "fpGlobals": [
+      "onloadeddata",
+      "indexedDB",
+      "ongamepaddisconnected",
+      "dd"
+    ],
+    "cookies": [
+      "datadome",
+      "nyt-a",
+      "nyt-gdpr",
+      "nyt-purr",
+      "nyt-geo",
+      "nyt.et.dd",
+      "nyt-traceid"
+    ]
+  },
+  "requests": [
+    {
+      "method": "GET",
+      "type": "document",
+      "url": "https://www.nytimes.com/"
+    },
+    {
+      "method": "GET",
+      "type": "script",
+      "url": "https://ct.captcha-delivery.com/c.js"
+    },
+    {
+      "method": "GET",
+      "type": "document",
+      "url": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAseey8gfNBLoAa9KFfw%3D%3D&hash=499AE34129FA4E4FABC31582C3075D&cid=TOGIpOuijBGdJhBYd1NFdOygSf5KjH~ZW63QojAT"
+    },
+    {
+      "method": "GET",
+      "type": "stylesheet",
+      "url": "https://static.captcha-delivery.com/captcha/assets/tpl/6dc485c0c428c35b53577b146dc6f9179f55ef9ad41b327a2a179998839364bf/index.css"
+    }
+  ]
+}
